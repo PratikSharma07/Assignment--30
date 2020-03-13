@@ -4,7 +4,6 @@ class Pineapple extends BaseClass {
       this.image = loadImage("sprites/Pineapple.png");
     }
 display(){
-  console.log(this.body.speed);
   if(this.body.speed<5.5){
     super.display();
   }
